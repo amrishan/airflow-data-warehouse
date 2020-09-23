@@ -7,4 +7,4 @@ steps:
   then echo "$BRANCH_NAME" && gsutil -m rsync -d -r ./dags gs://${_COMPOSER_BUCKET}/dags; 
   else echo "Working on $BRANCH_NAME"; fi']
 substitutions:
-    _COMPOSER_BUCKET: us-east1-dev-cloud-composer-fb241977-bucket
+    _COMPOSER_BUCKET: us-central1-dev-cloud-compo-501bb759-bucket
