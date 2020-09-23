@@ -1,0 +1,5 @@
+Use -m cp command to do upload large fragmented files
+its faster than cp -r
+
+gsutil -m cp part* gs://immig-cloud-data-lake-gcp/immigration_data/
+
